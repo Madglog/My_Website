@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap") ;
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif ;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh ;
+    background: radial-gradient(at right , #ffffff, #000000 110%) ;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    Left: 0 ;
+    width: 100% ;
+    padding: 30px 90px ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    z-index: 10000;
+}
+
+
+header .logo {
+    color: #000000;
+    font-weight: 700 ;
+    text-decoration: none ;
+    font-size: 2em ;
+    text-transform: uppercase ;
+    Letter-spacing: 2px ;
+}
+
+
+header ul {
+    display: flex ;
+    justify-content: center ;
+    aLign-items: center ;
+}
+
+
+header ul li {
+    List-style: none ;
+    margin-Left: 20px ;
+}
+
+
+header ul li a {
+    text-decoration: none ;
+    padding: 10px 15px ;
+    color: #000000;
+    border-radius: 20px ;
+}
+
+
+header ul li a:hover,
+header ul li a.active {
+    background: #000000 ;
+    color: #ffffff ;
+}
+
+
+section {
+    position: relative ;
+    width: 100% ;
+    height: 100vh ;
+    padding: 100px ;
+}
+
+
+section img#Mountains {
+    position: absolute;
+    top: 10% ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+    object-fit:cover ;
+}
+
+
+section a#Button {
+    position: absolute;
+    text-decoration: none ;
+    display: inline-block ;
+    top: 50% ;
+    left: 47% ;
+    padding: 8px 30px ;
+    border-radius: 40px ;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.5em ;
+    z-index: 0 ;
+}
+
+
+section h2 {
+    position: absolute;
+    color: #000000;
+    top: 20% ;
+    left: 12% ;
+    width: 100% ;
+    height: 50% ;
+    object-fit:scale-down ;
+}
+
+
+section img#Moon {
+    position: absolute ;
+    top: 4% ;
+    left: 13% ;
+    width: 100% ;
+    height: 50% ;
+    object-fit:scale-down ;
+}
+
+
+div {
+    position: relative;
+    padding: 100px;
+    background: #000000;
+
+}
+
+
+div h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #ffffff ;
+}
+
+
+div p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffffff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
